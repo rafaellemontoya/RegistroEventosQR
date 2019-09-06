@@ -7,14 +7,24 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
+    var codigo = ""
+    var video = AVCaptureVideoPreviewLayer()
+ let session = AVCaptureSession()
+    
+    @IBAction func escanear(_ sender: Any) {
+        performSegue(withIdentifier: "escanearCodigo", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+  
     }
-
-
+    
+ 
+   
+    
+  
 }
-

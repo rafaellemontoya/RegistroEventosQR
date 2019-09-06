@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0530B6C92310A20C0044A73A /* PruebaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530B6C82310A20C0044A73A /* PruebaViewController.swift */; };
 		058C2115230DA18F00392BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C2114230DA18F00392BB6 /* AppDelegate.swift */; };
 		058C2117230DA18F00392BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C2116230DA18F00392BB6 /* ViewController.swift */; };
 		058C211A230DA18F00392BB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C2118230DA18F00392BB6 /* Main.storyboard */; };
 		058C211C230DA19000392BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058C211B230DA19000392BB6 /* Assets.xcassets */; };
 		058C211F230DA19000392BB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C211D230DA19000392BB6 /* LaunchScreen.storyboard */; };
+		058C2128230DC23900392BB6 /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C2127230DC23900392BB6 /* ReaderViewController.swift */; };
+		058C212A230DC47500392BB6 /* RespuestaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C2129230DC47500392BB6 /* RespuestaViewController.swift */; };
+		05F044DD2321BFA300A67BDD /* EditarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F044DC2321BFA300A67BDD /* EditarViewController.swift */; };
+		05F044DF2321C08700A67BDD /* Asistente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F044DE2321C08700A67BDD /* Asistente.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0530B6C82310A20C0044A73A /* PruebaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaViewController.swift; sourceTree = "<group>"; };
 		058C2111230DA18F00392BB6 /* QrReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QrReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C2114230DA18F00392BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058C2116230DA18F00392BB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		058C211B230DA19000392BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058C211E230DA19000392BB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		058C2120230DA19000392BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058C2127230DC23900392BB6 /* ReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
+		058C2129230DC47500392BB6 /* RespuestaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespuestaViewController.swift; sourceTree = "<group>"; };
+		05F044DC2321BFA300A67BDD /* EditarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarViewController.swift; sourceTree = "<group>"; };
+		05F044DE2321C08700A67BDD /* Asistente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asistente.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0552F5DA2320C26B001627EB /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				05F044DE2321C08700A67BDD /* Asistente.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
 		058C2108230DA18F00392BB6 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +72,8 @@
 		058C2113230DA18F00392BB6 /* QrReader */ = {
 			isa = PBXGroup;
 			children = (
+				0552F5DA2320C26B001627EB /* Modelo */,
+				058C2126230DC18A00392BB6 /* ViewControllers */,
 				058C2114230DA18F00392BB6 /* AppDelegate.swift */,
 				058C2116230DA18F00392BB6 /* ViewController.swift */,
 				058C2118230DA18F00392BB6 /* Main.storyboard */,
@@ -62,6 +82,17 @@
 				058C2120230DA19000392BB6 /* Info.plist */,
 			);
 			path = QrReader;
+			sourceTree = "<group>";
+		};
+		058C2126230DC18A00392BB6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				058C2127230DC23900392BB6 /* ReaderViewController.swift */,
+				058C2129230DC47500392BB6 /* RespuestaViewController.swift */,
+				0530B6C82310A20C0044A73A /* PruebaViewController.swift */,
+				05F044DC2321BFA300A67BDD /* EditarViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F044DF2321C08700A67BDD /* Asistente.swift in Sources */,
 				058C2117230DA18F00392BB6 /* ViewController.swift in Sources */,
 				058C2115230DA18F00392BB6 /* AppDelegate.swift in Sources */,
+				058C2128230DC23900392BB6 /* ReaderViewController.swift in Sources */,
+				058C212A230DC47500392BB6 /* RespuestaViewController.swift in Sources */,
+				05F044DD2321BFA300A67BDD /* EditarViewController.swift in Sources */,
+				0530B6C92310A20C0044A73A /* PruebaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4SA8D3UGH;
 				INFOPLIST_FILE = QrReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4SA8D3UGH;
 				INFOPLIST_FILE = QrReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
