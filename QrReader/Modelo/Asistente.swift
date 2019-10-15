@@ -8,22 +8,22 @@
 
 import Foundation
 class Asistente: Decodable{
-    let  estado,nombre,apellidoPaterno,apellidoMaterno, empresa, producto, pedido,email, telefono, tipoAsistente: String
+    let  estado,nombre,apellido, empresa, nombre_taller,email, telefono, puesto,id_taller: String
     
-    let id: Int
+    let id_registro: Int
     
     init() {
-        id = 0
+        id_registro = 0
         estado = ""
         nombre = ""
-        apellidoPaterno = ""
-        apellidoMaterno = ""
+        apellido = ""
         empresa  = ""
-        producto = ""
-        pedido = ""
+        puesto=""
+        nombre_taller = ""
         email = ""
         telefono = ""
-        tipoAsistente = ""
+        id_taller = ""
+        
     }
     
 }

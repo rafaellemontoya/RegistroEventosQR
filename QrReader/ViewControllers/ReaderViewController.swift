@@ -21,8 +21,11 @@ class ReaderViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
         
         let captureDevice = AVCaptureDevice.DiscoverySession(deviceTypes: [AVCaptureDevice.DeviceType.builtInWideAngleCamera], mediaType: AVMediaType.video, position: AVCaptureDevice.Position.front).devices[0]
         
+        
+        
         do{
             let input = try AVCaptureDeviceInput(device: captureDevice)
+            
             session.addInput(input)
         }catch{
             print("Error")
@@ -32,7 +35,7 @@ class ReaderViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
         output.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
         
         output.metadataObjectTypes = [AVMetadataObject.ObjectType.qr]
-        
+        video.connection?.videoOrientation = .landscapeRight
         video = AVCaptureVideoPreviewLayer(session: session)
         video.frame = view.layer.bounds
         view.layer.addSublayer(video)
@@ -64,5 +67,22 @@ class ReaderViewController: UIViewController, AVCaptureMetadataOutputObjectsDele
         receiver.codigo = self.codigo
     }
     
-    
+    override func viewWillLayoutSubviews() {
+        
+        let orientation: UIDeviceOrientation = UIDevice.current.orientation
+        print(orientation)
+        
+        switch (orientation) {
+        case .portrait:
+            video.connection!.videoOrientation = .portrait
+        case .landscapeRight:
+            video.connection!.videoOrientation = .landscapeLeft
+        case .landscapeLeft:
+            video.connection!.videoOrientation = .landscapeRight
+        case .portraitUpsideDown:
+            video.connection!.videoOrientation = .portraitUpsideDown
+        default:
+            video.connection!.videoOrientation = .portraitUpsideDown
+        }
+    }
 }

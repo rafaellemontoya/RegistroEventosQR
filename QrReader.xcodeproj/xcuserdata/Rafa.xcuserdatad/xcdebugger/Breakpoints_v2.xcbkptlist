@@ -1,68 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+   uuid = "697183CC-838E-4C71-83C3-D1F8A1506BD8"
    type = "1"
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "E1593B17-82F3-40B2-8EDE-37144A2AD1E1"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.053849"
+            timestampString = "589883209.1792541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "obtenerInfoDB()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in QrReader.RespuestaViewController.obtenerInfoDB() -&gt; ()"
-                  moduleName = "QrReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Rafa/Documents/AppsiOS/QRReader/QrReader/QrReader/ViewControllers/RespuestaViewController.swift"
-                  timestampString = "589380998.141197"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "89"
-                  endingLineNumber = "89"
-                  offsetFromSymbolStart = "2192">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in QrReader.RespuestaViewController.obtenerInfoDB() -&gt; ()"
-                  moduleName = "QrReader"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Rafa/Documents/AppsiOS/QRReader/QrReader/QrReader/ViewControllers/RespuestaViewController.swift"
-                  timestampString = "589380998.143135"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "91"
-                  endingLineNumber = "91"
-                  offsetFromSymbolStart = "104">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.053941"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "obtenerInfoDB()"
             landmarkType = "7">
          </BreakpointContent>
@@ -70,27 +24,12 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "D880BB20-DF89-4BA0-8BEB-72DFD6F9FCC9"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.054005"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "obtenerInfoDB()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.054062"
+            timestampString = "589883209.17934"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -102,15 +41,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "DE0237B3-911D-4D99-A46B-F65D5F52AC2A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.054118"
+            timestampString = "589883209.179404"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "obtenerInfoDB()"
             landmarkType = "7">
          </BreakpointContent>
@@ -118,11 +58,29 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "63D1D658-818A-4451-969C-34F00CB0C602"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.179464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "obtenerInfoDB()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "709DBF4B-0CA8-4CDB-AD8F-FD72F26025F3"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewController.swift"
-            timestampString = "589416763.317957"
+            timestampString = "589656558.283013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
@@ -134,15 +92,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "D4B608C0-68BA-4A90-A538-765E731FD436"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.054195"
+            timestampString = "589883209.179544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
             landmarkName = "imprimir()"
             landmarkType = "7">
          </BreakpointContent>
@@ -150,15 +109,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "F6D53319-B939-47E4-81A4-F381BB751556"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.05425"
+            timestampString = "589883209.179605"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "imprimir()"
             landmarkType = "7">
          </BreakpointContent>
@@ -166,15 +126,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "34FF4783-6507-4CA8-B725-BECEB86BBD91"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.0543031"
+            timestampString = "589883209.179664"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "imprimir()"
             landmarkType = "7">
          </BreakpointContent>
@@ -182,15 +143,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "892397E3-6CF3-4B09-A389-EBC3E6D567DD"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.054353"
+            timestampString = "589883209.17972"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
             landmarkName = "imprimir()"
             landmarkType = "7">
          </BreakpointContent>
@@ -198,31 +160,440 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "4D0DF184-2FAB-4AC1-A469-1A406C00F387"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
-            timestampString = "589496638.0544029"
+            timestampString = "589883209.179778"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "153"
-            endingLineNumber = "153"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
             landmarkName = "imprimir()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4D0DF184-2FAB-4AC1-A469-1A406C00F387 - de44fb919f7faba1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in QrReader.RespuestaViewController.imprimir() -&gt; ()"
+                  moduleName = "QrReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rafa/Documents/AppsiOS/QRReader/QrReader/QrReader/ViewControllers/RespuestaViewController.swift"
+                  timestampString = "589745869.936707"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "1432">
+               </Location>
+               <Location
+                  uuid = "4D0DF184-2FAB-4AC1-A469-1A406C00F387 - 5769e18ba4641c4f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in QrReader.RespuestaViewController.imprimir() -&gt; ()"
+                  moduleName = "QrReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rafa/Documents/AppsiOS/QRReader/QrReader/QrReader/ViewControllers/RespuestaViewController.swift"
+                  timestampString = "589745869.938507"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "133458E9-8DEA-41D3-90BA-CF8BA8E1F350"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "QrReader/ViewControllers/EditarViewController.swift"
-            timestampString = "589496638.054454"
+            timestampString = "589883209.179834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "guardar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4A9790B-A203-4E07-9652-BE935D5CB005"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180226"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
+            landmarkName = "imprimirPrintNode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AEB9E6A-2298-4850-9F3E-F725B45D41E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.1802911"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "imprimirPrintNode()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8AEB9E6A-2298-4850-9F3E-F725B45D41E1 - 1adfcfe4d4db793b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "QrReader.RespuestaViewController.imprimirPrintNode() -&gt; ()"
+                  moduleName = "QrReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rafa/Documents/AppsiOS/QRReader/QrReader/QrReader/ViewControllers/RespuestaViewController.swift"
+                  timestampString = "589745654.474737"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "1952">
+               </Location>
+               <Location
+                  uuid = "8AEB9E6A-2298-4850-9F3E-F725B45D41E1 - 6b73f7943cadc3b2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in QrReader.RespuestaViewController.imprimirPrintNode() -&gt; ()"
+                  moduleName = "QrReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rafa/Documents/AppsiOS/QRReader/QrReader/QrReader/ViewControllers/RespuestaViewController.swift"
+                  timestampString = "589745654.476548"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "328">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C47C65E8-A411-43D1-9776-1A576E895020"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.1803499"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "imprimirPrintNode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6087BA32-26D7-454E-B9A4-A03040F010A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180407"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "imprimir()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7589D101-3A5F-4529-97CD-40F3734C0724"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180463"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "obtenerInfoDB()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E8C4105-862D-4B0F-B5E2-E05F47109614"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.1805201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "obtenerInfoDB()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF6777B3-150D-4B0D-8BFC-EB52EE6814CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180578"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "obtenerInfoDB()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39CAB681-5911-46CC-80B6-9137D0ABAD5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180634"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "obtenerInfoDB()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29DB9643-4FB3-406E-A06B-4BCABC16A265"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180689"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "obtenerInfoDB()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "185245BD-8E87-47E4-8431-296E257365DB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180748"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "obtenerInfoDB()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "953B1131-1534-438E-9A06-DFA4E15A89E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.1808"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "imprimirPrintNode()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "953B1131-1534-438E-9A06-DFA4E15A89E3 - 6b73f7943cadc3b2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in QrReader.RespuestaViewController.imprimirPrintNode() -&gt; ()"
+                  moduleName = "QrReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rafa/Documents/AppsiOS/QRReader/QrReader/QrReader/ViewControllers/RespuestaViewController.swift"
+                  timestampString = "589873010.055589"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "223"
+                  endingLineNumber = "223"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "953B1131-1534-438E-9A06-DFA4E15A89E3 - 22f97669afca3998"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in QrReader.RespuestaViewController.imprimirPrintNode() -&gt; ()"
+                  moduleName = "QrReader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Rafa/Documents/AppsiOS/QRReader/QrReader/QrReader/ViewControllers/RespuestaViewController.swift"
+                  timestampString = "589873010.057335"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8C72F92-E260-4FD8-934B-314C253F1ED6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180854"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
+            landmarkName = "imprimirPrintNode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1EAB5CF-F948-469B-9544-4C2835AEDA4A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180902"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "imprimirPrintNode()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA00E2F6-4D02-4740-9A07-185C110401AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.180952"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "imprimir()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F046AA6-E104-4B97-A5C8-C882B4F9E6A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/RespuestaViewController.swift"
+            timestampString = "589883209.181"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "imprimir()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD2072FA-0339-4708-8E64-48EDDE1E149F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/EditarViewController.swift"
+            timestampString = "589883209.181061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "guardar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B041361-CD49-4F0A-B11B-C0E51EBE1D0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/EditarViewController.swift"
+            timestampString = "589883209.181349"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
+            landmarkName = "guardar()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD8238B8-92ED-49B3-89F1-E49BD7B1F268"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "QrReader/ViewControllers/EditarViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
             landmarkName = "guardar()"
             landmarkType = "7">
          </BreakpointContent>

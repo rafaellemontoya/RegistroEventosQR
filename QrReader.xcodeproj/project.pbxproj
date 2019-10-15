@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0530B6C92310A20C0044A73A /* PruebaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0530B6C82310A20C0044A73A /* PruebaViewController.swift */; };
+		0546AC88235586F100DB2E9A /* RespuestaAsistencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0546AC87235586F100DB2E9A /* RespuestaAsistencia.swift */; };
 		058C2115230DA18F00392BB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C2114230DA18F00392BB6 /* AppDelegate.swift */; };
 		058C2117230DA18F00392BB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058C2116230DA18F00392BB6 /* ViewController.swift */; };
 		058C211A230DA18F00392BB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058C2118230DA18F00392BB6 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		0530B6C82310A20C0044A73A /* PruebaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaViewController.swift; sourceTree = "<group>"; };
+		0546AC87235586F100DB2E9A /* RespuestaAsistencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespuestaAsistencia.swift; sourceTree = "<group>"; };
 		058C2111230DA18F00392BB6 /* QrReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QrReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058C2114230DA18F00392BB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058C2116230DA18F00392BB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				05F044DE2321C08700A67BDD /* Asistente.swift */,
+				0546AC87235586F100DB2E9A /* RespuestaAsistencia.swift */,
 			);
 			path = Modelo;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				058C2117230DA18F00392BB6 /* ViewController.swift in Sources */,
 				058C2115230DA18F00392BB6 /* AppDelegate.swift in Sources */,
 				058C2128230DC23900392BB6 /* ReaderViewController.swift in Sources */,
+				0546AC88235586F100DB2E9A /* RespuestaAsistencia.swift in Sources */,
 				058C212A230DC47500392BB6 /* RespuestaViewController.swift in Sources */,
 				05F044DD2321BFA300A67BDD /* EditarViewController.swift in Sources */,
 				0530B6C92310A20C0044A73A /* PruebaViewController.swift in Sources */,
@@ -321,7 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4SA8D3UGH;
 				INFOPLIST_FILE = QrReader/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,7 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4SA8D3UGH;
 				INFOPLIST_FILE = QrReader/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
